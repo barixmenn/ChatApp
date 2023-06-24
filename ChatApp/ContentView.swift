@@ -27,7 +27,7 @@ struct ContentView: View {
                 .cornerRadius(30, corners: [.topLeft, .topRight])
             }
             .background(Color("Peach"))
-            MessageField()
+            MessageField().environmentObject(messagesManager)
         }
         
     }
