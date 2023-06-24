@@ -19,6 +19,7 @@
 		60B08CAF2A47A26B008F8177 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60B08CAE2A47A26B008F8177 /* GoogleService-Info.plist */; };
 		60B08CB22A47A932008F8177 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 60B08CB12A47A932008F8177 /* FirebaseFirestore */; };
 		60B08CB42A47A932008F8177 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 60B08CB32A47A932008F8177 /* FirebaseFirestoreSwift */; };
+		60B08CB72A47ABF1008F8177 /* MessageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B08CB62A47ABF1008F8177 /* MessageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		60B08CA92A479F48008F8177 /* MessageField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageField.swift; sourceTree = "<group>"; };
 		60B08CAC2A479FEE008F8177 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		60B08CAE2A47A26B008F8177 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		60B08CB62A47ABF1008F8177 /* MessageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 		60B08C8F2A477405008F8177 /* ChatApp */ = {
 			isa = PBXGroup;
 			children = (
+				60B08CB52A47ABEA008F8177 /* Manager */,
 				60B08CAE2A47A26B008F8177 /* GoogleService-Info.plist */,
 				60B08CAB2A479FDF008F8177 /* Extension */,
 				60B08CA42A477862008F8177 /* Model */,
@@ -119,6 +122,14 @@
 				60B08CAC2A479FEE008F8177 /* View+Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		60B08CB52A47ABEA008F8177 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				60B08CB62A47ABF1008F8177 /* MessageManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,6 +217,7 @@
 				60B08CAA2A479F48008F8177 /* MessageField.swift in Sources */,
 				60B08CAD2A479FEE008F8177 /* View+Extension.swift in Sources */,
 				60B08CA32A4775BD008F8177 /* TitleRow.swift in Sources */,
+				60B08CB72A47ABF1008F8177 /* MessageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
