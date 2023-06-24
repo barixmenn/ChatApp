@@ -13,6 +13,8 @@
 		60B08C982A477406008F8177 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60B08C972A477406008F8177 /* Preview Assets.xcassets */; };
 		60B08CA32A4775BD008F8177 /* TitleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B08CA22A4775BD008F8177 /* TitleRow.swift */; };
 		60B08CA62A47786A008F8177 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B08CA52A47786A008F8177 /* Message.swift */; };
+		60B08CA82A477920008F8177 /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B08CA72A477920008F8177 /* MessageBubble.swift */; };
+		60B08CAA2A479F48008F8177 /* MessageField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B08CA92A479F48008F8177 /* MessageField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		60B08C972A477406008F8177 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		60B08CA22A4775BD008F8177 /* TitleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRow.swift; sourceTree = "<group>"; };
 		60B08CA52A47786A008F8177 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		60B08CA72A477920008F8177 /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
+		60B08CA92A479F48008F8177 /* MessageField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				60B08CA22A4775BD008F8177 /* TitleRow.swift */,
+				60B08CA72A477920008F8177 /* MessageBubble.swift */,
+				60B08CA92A479F48008F8177 /* MessageField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -169,7 +175,9 @@
 			files = (
 				60B08C932A477405008F8177 /* ContentView.swift in Sources */,
 				60B08CA62A47786A008F8177 /* Message.swift in Sources */,
+				60B08CA82A477920008F8177 /* MessageBubble.swift in Sources */,
 				60B08C912A477405008F8177 /* ChatAppApp.swift in Sources */,
+				60B08CAA2A479F48008F8177 /* MessageField.swift in Sources */,
 				60B08CA32A4775BD008F8177 /* TitleRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
