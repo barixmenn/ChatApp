@@ -8,11 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var messageArray = ["Hello you","How are you doing","I've been bulding SwiftUI application."]
+    
     var body: some View {
         VStack {
-            TitleRow()
+            VStack {
+                TitleRow()
+                
+                ScrollView{
+                    ForEach(messageArray, id: \.self) { text in
+                        MessageBubble(message: Message(id: "123", text: text, received: true, timestamp: Date()))
+                    }
+                }
+                .padding(.top, 10)
+                .background(.white)
+                .cornerRadius(30)
+            }
+            .background(Color("Peach"))
+            MessageField()
         }
-        .background(Color("Peach"))
         
     }
 }
